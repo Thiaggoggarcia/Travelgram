@@ -1,15 +1,17 @@
 body{
       font-family: "Poppins", sans-serif;
+      width: 1280px;
+      margin: 0px;
+      
 }
 
 #navigator{
       padding: 20px 32px;
       height: 80px;
-      width: 1280px;
-      border: red solid;
       display: flex;
       box-sizing: border-box;
       justify-content: space-between;
+      background-color: #F5F5F5;
 }
 #logo{
       display: flex;
@@ -36,8 +38,100 @@ nav{
 }
 
 #profile{
-      border-radius: 100px;
+      border-radius: 40px;
       width: 40px;
       height: 40px;
+      object-fit: cover;
 }
 
+#about-section{
+      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+      background-color: #F5F5F5;
+}
+#about{
+      width: 592px;
+      height: 176px;
+      display: flex;   
+}
+#about > img{
+      width: 176px;
+      height: 176px;
+      border-radius: 176px;
+      object-fit: cover;
+      margin-right: 32px;
+}
+#about > div{
+      width: 384px;
+      height: 168px;
+}
+#about > div > h1{
+      font-size: 32px;
+      margin:0px;
+      color: #313131;
+}
+#about > div > p{
+      font-size: 14px;
+      margin:0;
+      color: #6C6C6C;
+      padding: 8px 10px 0px 0px;  
+}     
+
+ul{
+      width: 280px;
+      height: 104px;
+      color: #6C6C6C;
+      font-size:14px ;
+      list-style: none;
+      margin:36px 0px 0px 136px ;
+      padding: 0;
+}
+ul > li{
+      display: flex;
+      column-gap: 8px;
+}
+
+ul > li:nth-child(2){
+      padding: 16px 0;    
+}
+
+ul > img{
+      width: 24px;
+      height: 24px;
+}
+
+main{
+      padding: 24px 32px;
+
+}
+main > section{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: space-between;
+      
+}
+
+main > section > img{
+      width: 286px;
+      height: 286px;
+}
+
+footer{
+      height: 72px;
+      padding: 24px 32px;
+      color: #6C6C6C;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+}
+footer > div{
+       width: 297px;
+       height: 24px;
+}
+footer > div > span:nth-child(1){
+      padding-right: 16px;
+}
