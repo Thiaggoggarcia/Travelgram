@@ -1,0 +1,27 @@
+#navigator{
+      padding: 20px 32px;
+      height: 80px;
+      display: flex;
+      box-sizing: border-box;
+      justify-content: space-between;
+      background-color: var(--surface-color)     
+}
+
+#navigator > ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 325px;
+      height: 40px;
+      margin: 0;
+      list-style: none;
+}
+#navigator > ul > li > a:hover{
+      color: var(--brand-color);
+      
+}
+#navigator > ul > li > a{
+      font: var(--text);
+      color: var(--text-color-secundary);
+      text-decoration: none;
+}

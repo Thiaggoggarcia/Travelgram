@@ -1,41 +1,5 @@
-body{
-      font-family: "Poppins", sans-serif;
-      width: 1280px;
-      margin: 0px;
-      
-}
-
-#navigator{
-      padding: 20px 32px;
-      height: 80px;
-      display: flex;
-      box-sizing: border-box;
-      justify-content: space-between;
-      background-color: #F5F5F5;
-}
-#logo{
-      display: flex;
-      color: #EF5F4C;
-      width: 162px;
-      height: 32px;
-      font-weight: bold;
-      font-size: 20px;
-      margin: auto 0;
-      align-items: center;
-            
-}
-#logo > span{
-      margin-left: 8px;
-}
-
-nav{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 325px;
-      height: 40px;
-      color: #6C6C6C;
-}
+@import url("global.css");
+@import url("nav.css");
 
 #profile{
       border-radius: 40px;
@@ -48,7 +12,7 @@ nav{
       padding: 32px;
       display: flex;
       justify-content: space-between;
-      background-color: #F5F5F5;
+      background-color: var(--surface-color);
 }
 #about{
       width: 592px;
@@ -67,36 +31,37 @@ nav{
       height: 168px;
 }
 #about > div > h1{
-      font-size: 32px;
+      font:var(--text-lg);
       margin:0px;
-      color: #313131;
+      color: var(--text-color-primary);
 }
 #about > div > p{
-      font-size: 14px;
+      font: var(--text-md);
       margin:0;
-      color: #6C6C6C;
+      color: var(--text-color-secundary);
       padding: 8px 10px 0px 0px;  
 }     
 
-ul{
+section > ul{
       width: 280px;
       height: 104px;
-      color: #6C6C6C;
-      font-size:14px ;
-      list-style: none;
       margin:36px 0px 0px 136px ;
       padding: 0;
 }
-ul > li{
+section > ul > li{
       display: flex;
       column-gap: 8px;
 }
+section > ul > li > span{
+      font: var(--text-md);
+      color: var(--text-color-secundary);
+}
 
-ul > li:nth-child(2){
+section > ul > li:nth-child(2){
       padding: 16px 0;    
 }
 
-ul > img{
+section > ul > img{
       width: 24px;
       height: 24px;
 }
@@ -122,16 +87,17 @@ main > section > img{
 footer{
       height: 72px;
       padding: 24px 32px;
-      color: #6C6C6C;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 14px;
+      font: var(--text-md);
+      color: var(--text-color-secundary);
 }
+
 footer > div{
        width: 297px;
        height: 24px;
-}
+}     
 footer > div > span:nth-child(1){
       padding-right: 16px;
 }
