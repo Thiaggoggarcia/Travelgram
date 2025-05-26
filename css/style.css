@@ -2,22 +2,5 @@
 @import url("nav.css");
 @import url("section-about.css");
 @import url("main.css");
+@import url("footer.css");
 
-
-footer{
-      height: 72px;
-      padding: 24px 32px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font: var(--text-md);
-      color: var(--text-color-secundary);
-}
-
-footer > div{
-       width: 297px;
-       height: 24px;
-}     
-footer > div > span:nth-child(1){
-      padding-right: 16px;
-}
