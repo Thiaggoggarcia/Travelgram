@@ -1,62 +1,6 @@
 @import url("global.css");
 @import url("nav.css");
-
-#about-section{
-      padding: 32px;
-      display: flex;
-      justify-content: space-between;
-      background-color: var(--surface-color);
-}
-#about{
-      width: 592px;
-      height: 176px;
-      display: flex;   
-}
-#about > img{
-      width: 176px;
-      height: 176px;
-      border-radius: 176px;
-      object-fit: cover;
-      margin-right: 32px;
-}
-#about > div{
-      width: 384px;
-      height: 168px;
-}
-#about > div > h1{
-      font:var(--text-lg);
-      margin:0px;
-      color: var(--text-color-primary);
-}
-#about > div > p{
-      font: var(--text-md);
-      margin:0;
-      color: var(--text-color-secundary);
-      padding: 8px 10px 0px 0px;  
-}     
-
-section > ul{
-      width: 280px;
-      height: 104px;
-      margin:36px 0px 0px 136px ;
-      padding: 0;
-}
-section > ul > li{
-      display: flex;
-      column-gap: 8px;
-}
-section > ul > li > a{
-      font: var(--text-md);
-}
-
-section > ul > li:nth-child(2){
-      padding: 16px 0;    
-}
-
-section > ul > img{
-      width: 24px;
-      height: 24px;
-}
+@import url("section-about.css");
 
 main{
       padding: 24px 32px;
