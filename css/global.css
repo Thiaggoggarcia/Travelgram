@@ -26,3 +26,17 @@ body{
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    font: var(--text);
+    color: var(--text-color-secundary);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+

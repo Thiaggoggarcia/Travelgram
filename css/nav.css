@@ -1,27 +1,23 @@
 #navigator{
-      padding: 20px 32px;
-      height: 80px;
+      padding: 32px 20px;
+      line-height: 0;
       display: flex;
-      box-sizing: border-box;
+      align-items: center;
       justify-content: space-between;
       background-color: var(--surface-color)     
 }
 
 #navigator > ul{
       display: flex;
-      justify-content: space-between;
+      gap: 20px;
       align-items: center;
-      width: 325px;
-      height: 40px;
+      padding-block: 8px;
       margin: 0;
-      list-style: none;
 }
-#navigator > ul > li > a:hover{
-      color: var(--brand-color);
-      
-}
-#navigator > ul > li > a{
-      font: var(--text);
-      color: var(--text-color-secundary);
-      text-decoration: none;
+
+#navigator > ul > li:last-child img{
+      border-radius: 40px;
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
 }
