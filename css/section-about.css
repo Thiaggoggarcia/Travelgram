@@ -1,8 +1,9 @@
 
 #section-about{
-      padding: 32px;
-      display: flex;
-      justify-content: space-between;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #about{
@@ -18,40 +19,32 @@
     object-fit: cover;
 }
 #about > div{
-      width: 384px;  
+    width: 384px;  
 }
 
 #about > div > h1{
-      font:var(--text-lg);
-      margin:0px;
-      color: var(--text-color-primary);
+    font:var(--text-lg);
+    margin:0px;
+    color: var(--text-color-primary);
 }
 #about > div > p{
-      font: var(--text-md);
-      margin:0;
-      color: var(--text-color-secundary);
-      padding: 8px 10px 0px 0px;  
+    font: var(--text-md);
+    margin:0;
+    color: var(--text-color-secundary);
+    padding: 8px 10px 0px 0px;  
 }     
 
-#about-info > ul{
-      width: 280px;
-      height: 104px;
-      margin:36px 0px 0px 136px ;
-      padding: 0;
+#about-info{
+    width: 280px;
 }
-#about-info > ul > li{
-      display: flex;
-      column-gap: 8px;
+#about-info > li{
+    display: flex;
+    column-gap: 8px;
 }
-#about-info > ul > li > a{
-      font: var(--text-md);
+#about-info > li > a{
+    font: var(--text-md);
 }
 
-#about-info > ul > li:nth-child(2){
-      padding: 16px 0;    
-}
-
-#about-info > ul > img{
-      width: 24px;
-      height: 24px;
+#about-info > li:nth-child(2){
+    padding-block: 16px;
 }
